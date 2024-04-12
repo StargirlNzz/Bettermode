@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Platform Overview | Bettermode</title>
+    <link rel="icon" href="logoOn.png" type="image/jpg">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="part1.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="navbar" id="myNavbar">
+        <a href="#umg"><img src="logo.png" alt="Logo"></a>
+        <a href="#Product">Product</a>
+        <a href="#Templates">Templates</a>
+        <a href="#Enterprise">Enterprise</a>
+        <a href="#Pricing">Pricing</a>
+        <a href="#Community">Community</a>
+        <div class="navbar-right">
+            <a href="#login" class="button login">Login</a>
+            <a href="#get-started" class="button">Get started for free</a>
+        </div>
+        <a href="javascript:void(0);" class="icon hamburger" onclick="myFunction()">
+            ☰
+        </a>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        } 
+    </script>
+    <!--  end navbar  -->
+
+
+    <!-- first part -->
+    <div class="container">
+        <div class="left">
+            <!-- Left content goes here -->
+            <br><br><br><br><br><br>
+            <p style="font-size: 60px; font-weight: 550;">Forge Exceptional Online Experiences</p>
+            <p style="font-size: 28px; color: #2b5314; font-weight: 549;">Leverage the power of the leading engagement
+                platform. Explore a world of design possibilities with our extensive template gallery.</p>
+            <br><br>
+            <a href="#get-started" style="background-color: #66c61c;
+          border: none;
+          color: white;
+          padding: 20px 40px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 10px 10px;
+          cursor: pointer;
+          border-radius: 40px; font-size: 20px;">Get started for free</a>
+            <a href="#brows" style="background-color: white;
+          border: 1px;
+          border-color: rgb(65, 65, 65);
+          color: black;
+          border-style:ridge;
+          padding: 20px 40px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 10px 10px;
+          cursor: pointer;
+          border-radius: 40px; font-size: 20px;">Brows templates</a>
+          <br><br><br>
+          <img src="hubspot.svg" alt="" style="margin: 22px;">
+          <img src="flutterflow.svg" alt="" style="margin: 22px;">
+          <img src="sumsung.svg" alt="" style="margin: 22px;">
+          <img src="preply.svg" alt="" style="margin: 22px;">
+        </div>
+        <div class="right">
+            <!-- Right content goes here -->
+            <br><br><br><br>
+            <img src="imgpart1.webp" alt="" style="max-width: 100%;
+            height: 700px; box-shadow: 0 20px 24px -4px rgba(0,0,0,.08), 0 8px 8px -4px rgba(16,24,40,.03);">
+        </div>
+    </div>
+    <!-- end firstPart -->
+</body>
+
+</html>
