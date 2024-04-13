@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container4 {
+    display: flex;
+}
+
+.left4,
+.right4 {
+    flex: 1;
+    padding: 20px;
+}
+
+.left4 {
+    background-color: #f9fafb;
+}
+
+.right4 {
+    background-color: #f9fafb;
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+    .container4 {
+        flex-direction: column;
+    }
+}
+
+.layout04_item-list {
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: 1fr;
+    align-items: start;
+    justify-items: start;
+    display: grid;
+    align-content: normal
+}
+
+.layout04_item-list {
+    grid-template-rows: auto;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    unicode-bidi: isolate;
+}
+
+body {
+    color: var(--gray500);
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+.icon-featured-outline-large-4 {
+    color: #7f56d9;
+    background-color: #f4ebff;
+    border: .5rem solid #f9f5ff;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+}
+
+.button-secondary-gray-3 {
+    grid-column-gap: .5rem;
+    color: #344054;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #d0d5dd;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    padding: .625rem 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .3s;
+    display: flex;
+    box-shadow: 0 1px 2px rgba(16,24,40,.05);
+}
+
+.button-row {
+    grid-column-gap: .75rem;
+    grid-row-gap: .75rem;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .layout04_item-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .layout04_item-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
